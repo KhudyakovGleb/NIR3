@@ -1,0 +1,31 @@
+[project]
+name = "nir3"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "KhudyakovGleb",email = "glebkhudyakov@yandex.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch (>=2.0)",
+    "transformers (==4.27.1)",
+    "accelerate (==0.17.1)",
+    "evaluate (==0.4.0)",
+    "tensorboard (>=2.18.0,<3.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "datasets (>=3.2.0,<4.0.0)",
+    "torchvision (>=0.20.1,<0.21.0)",
+    "torchaudio (>=2.5.1,<3.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.3.2"
+ipykernel = "^6.29.5"
+
