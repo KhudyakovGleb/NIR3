@@ -1,3 +1,9 @@
 dist/
 nir3/Glebosol/
 nir3/secret.py
+nir3/__pycache__
+__pycache__
+files/Обработанные_сообщения.csv
+files/Модели Сообщения (2).xlsx
+nir3/cache
+files/Сообщения из соцсетей/spb.csv
